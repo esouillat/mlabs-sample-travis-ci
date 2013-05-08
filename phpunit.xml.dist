@@ -9,11 +9,10 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="false"
-         bootstrap="vendor/autoload.php"
 >
     <testsuites>
         <testsuite name="MLABS Sample Test Suite">
-            <directory>./test/</directory>
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 
@@ -21,7 +20,7 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
-                <directory>./test</directory>
+                <directory>./tests</directory>
             </exclude>
         </whitelist>
     </filter>
