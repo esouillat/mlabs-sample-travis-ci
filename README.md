@@ -1,4 +1,3 @@
-mlabs-sample-travis-ci
-======================
+# mlabs-sample-travis-ci
 
-Sample PHP Code for travis CI
+Sample PHPunit Code for testing travis CI.
