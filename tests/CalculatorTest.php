@@ -1,5 +1,5 @@
 <?php
-include 'Calculator.php';
+include './src/Calculator.php';
 
 class CalculatorTest extends PHPUnit_Framework_TestCase
 {
